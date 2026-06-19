@@ -22,12 +22,6 @@ steps{
 sh'mvn test'
 }
 }
-
-stage('run application'){
-steps{
-sh'mvn exec:java -Dexec.mainClass=com.example.App'
-}
-}
 }
 post{
 success{
