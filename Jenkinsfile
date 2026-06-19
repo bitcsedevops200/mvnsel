@@ -25,7 +25,7 @@ sh'mvn test'
 
 stage('run application'){
 steps{
-sh'java -jar target/mvnsel-1.0-SNAPSHOT.jar'
+sh'mvn exec:java -Dexec.mainClass=com.example.App'
 }
 }
 }
