@@ -7,7 +7,7 @@ jdk 'JDK'
 stages{
 stage('Checkout'){
 steps{
-git:branch:'master',url:'https://github.com/bitcsedevops200/mvnsel.git'
+git branch:'master',url:'https://github.com/bitcsedevops200/mvnsel.git'
 }
 }
 
